@@ -2,7 +2,7 @@ version: '3.4'
 services:
   deployment-workshop-bot-3-action-server:
     build: .
-    # tag it with the registry of microk8s
+    # tag it with the registry of the microk8s cluster
     image: localhost:32000/deployment-workshop-bot-3-action-server:0.0.1
     expose:
       - "5055"
